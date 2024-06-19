@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ijam's Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="logo-text-container">
+        <img src="/aset/logo.png" alt="Logo" class="logo">
+        <div class="logo-text">X  ijam</div>
+    </div>
+    <header>
+        <h1>Welcome to My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#photo">Foto</a></li>
+            </ul>
+        </nav>
+        <br>
+    </header>
+
+    <br><br>
+
+    <section id="video">
+        <div class="content-box">
+            <h2>Joji - Sanctuary</h2>
+            <video controls>
+                <source src="/aset/Joji - Sanctuary (Official Video).mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+    <br><br>
+
+    <section id="music">
+        <div class="music-player">
+            <img src="/aset/Joji.jpeg" alt="Album Cover" class="album-cover">
+            <div class="music-info">
+                <h2>Joji</h2>
+                <p>Sanctuary</p>
+                <audio controls>
+                    <source src="/aset/Y2meta.app - Joji - Sanctuary (Official Video) (128 kbps).mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <div class="player-controls">
+                    <i class="fas fa-backward" id="prev" title="Previous"></i>
+                    <i class="fas fa-play main-button" id="play" title="Play"></i>
+                    <i class="fas fa-forward" id="next" title="Next"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="photo">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="/aset/joji-pink-guy.jpg" style="width:30%">
+                <h2>Vokalis</h2>
+            </div>
+        </div>
+        
+    </section>
+
+    <button onclick="location.href='form.html'">KONTAK</button>
+    <script src="script.js"></script>
+</body>
+</html>
